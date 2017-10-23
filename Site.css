@@ -1,0 +1,302 @@
+﻿body {
+}
+
+
+/*NAVIGATION*/
+.navbar-default {
+    background-color: #474e5d;
+    padding: 0px 15px;
+    margin-bottom: 0px;
+    border: none;
+    border-radius: 0px;
+}
+
+    .navbar-default .navbar-brand {
+        color: #ffffff;
+        text-transform: capitalize;
+        letter-spacing: 6px;
+        font-family: 'Saira Extra Condensed', sans-serif;
+        font-size: 24px;
+    }
+
+        .navbar-default .navbar-brand:hover,
+        .navbar-default .navbar-brand:focus {
+            color: #000000;
+        }
+
+    .navbar-default .navbar-text {
+        color: #ffffff;
+    }
+
+    .navbar-default .navbar-nav > li > a {
+        color: #ffffff;
+        text-transform: uppercase;
+        font-size: 12px;
+        letter-spacing: 4px;
+    }
+
+        .navbar-default .navbar-nav > li > a:hover,
+        .navbar-default .navbar-nav > li > a:focus {
+            color: #000000;
+        }
+
+    .navbar-default .navbar-nav > .active > a,
+    .navbar-default .navbar-nav > .active > a:hover,
+    .navbar-default .navbar-nav > .active > a:focus {
+        color: #000000;
+        background-color: #9ca7bd;
+    }
+
+    .navbar-default .navbar-nav > .open > a,
+    .navbar-default .navbar-nav > .open > a:hover,
+    .navbar-default .navbar-nav > .open > a:focus {
+        color: #000000;
+        background-color: #9ca7bd;
+    }
+
+    .navbar-default .navbar-toggle {
+        border-color: #9ca7bd;
+    }
+
+        .navbar-default .navbar-toggle:hover,
+        .navbar-default .navbar-toggle:focus {
+            background-color: #9ca7bd;
+        }
+
+        .navbar-default .navbar-toggle .icon-bar {
+            background-color: #ffffff;
+        }
+
+    .navbar-default .navbar-collapse,
+    .navbar-default .navbar-form {
+        border-color: #ffffff;
+    }
+
+    .navbar-default .navbar-link {
+        color: #ffffff;
+    }
+
+        .navbar-default .navbar-link:hover {
+            color: #000000;
+        }
+
+
+        /*Jumbotron*/
+.jumbotron {
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+    height: 372px;
+}
+
+    .jumboVilla,
+    .jumboMap {
+        padding: 0px;
+        margin: 0px;
+        background-size: cover;
+        height: 372px;
+    }
+
+    .jumboVilla {
+        background-image: url(Content/layout.jpg);
+    }
+
+    .jumboMap {
+        background-image: url(Content/map.jpg);
+    }
+
+    .jumboWords {
+        position: relative;
+        top: 10px;
+        color: white;
+        text-align: center;
+    }
+
+
+    /*LOCATION BARS*/
+.banner {
+    background-color: #474e5d;
+    color: white;
+    text-align: center;
+    height: 150px;
+    margin-top: 0px;
+}
+
+.banner .locText{
+    position: relative;
+    top: 20px;
+}
+.locText p {
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.locations {
+    padding: 60px 50px;
+}
+
+.loc1picture img,
+.loc2picture img,
+.loc3picture img {
+    width: 375px;
+}
+
+.location1 {
+    color: #474e5d;
+}
+
+.location2 {
+    background-color: #474e5d;
+    color: white;
+}
+
+.btn {
+    background-color: #474e5d;
+    color: white;
+    border-radius: 0px;
+}
+
+.loc2 .btn {
+    background-color: white;
+    color: #474e5d;
+    border-radius: 0px;
+}
+
+/*Amenities*/
+
+.amenityGrid {
+    padding: 50px;
+    margin: 0px;
+}
+
+.amenityRow {
+    height: 411px;
+    display: inline;
+    padding: 0px;
+    margin: 0px;
+}
+
+.amenityText {
+    text-align: center;
+    padding-top: 25px;
+}
+
+.gridImages {
+    background-size: cover;
+    height: 411px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.gridText{
+    background-color: rgba(71, 78, 93, 0.75);
+    padding: 15px 20px;
+    width: 200px;
+    text-align: center;
+    position: relative;
+    margin: 40% auto;
+    top: auto;
+    bottom: auto;
+}
+
+.gridText h3 {
+    opacity: 1;
+}
+
+.gridTextDark {
+    color: #474e5d;
+}
+
+.gridTextLight {
+    color: white;
+}
+
+.gridReceptions {
+    background-image: url('Content/exterior.jpg');
+}
+
+.gridPool {
+    background-image: url('Content/pool.jpg');
+}
+
+.gridHome {
+    background-image: url('Content/bedroom.jpg');
+}
+
+.gridViews {
+    background-image: url('Content/patio.jpg');
+}
+
+.gridDining {
+    background-image: url('Content/outdoor_dining.jpg');
+}
+
+/* Carousel */
+.carouselAdjust {
+    height: 300px;
+    color: #474e5d;
+}
+.carousel-caption {
+    color: #474e5d;
+}
+
+.carousel-indicators li,
+.carousel-indicators .active {
+    background-color: #474e5d;
+}
+
+.carousel_placeholder {
+    text-align: center;
+}
+.controlLeft,
+.controlRight {
+    background-color: white;
+    color: #474e5d;
+}
+
+/* Contact */
+.formAdjust {
+    height: 300px;
+    padding: 50px;
+}
+
+.listRight {
+    margin: auto;
+    padding-left: 150px;
+}
+
+.nameBox,
+.emailBox,
+.commentBox {
+    padding: 0px;
+    margin: 0px;
+}
+
+#name {
+    width: 95%;
+}
+
+#email {
+    width: 95%;
+    margin-left: 5%;
+}
+
+#comment {
+    margin-top: 15px;
+}
+
+#submit {
+    margin: 15px;
+}
+
+
+
+
+/* Footer */
+.footText {
+    font-weight: lighter;
+    font-size: 14px;
+    font-family: 'Didact Gothic', Arial;
+    text-align: center;
+    padding-top: 25px;
+}
