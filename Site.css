@@ -1,4 +1,5 @@
 ﻿body {
+    font-family: 'Didact Gothic', Arial;
 }
 
 
@@ -81,7 +82,7 @@
         }
 
 
-        /*Jumbotron*/
+/*Jumbotron*/
 .jumbotron {
     display: inline;
     margin: 0px;
@@ -89,31 +90,39 @@
     height: 372px;
 }
 
-    .jumboVilla,
-    .jumboMap {
-        padding: 0px;
-        margin: 0px;
-        background-size: cover;
-        height: 372px;
-    }
+.jumboVilla,
+.jumboMap {
+    padding: 0px;
+    margin: 0px;
+    background-size: cover;
+    height: 372px;
+}
 
-    .jumboVilla {
-        background-image: url(Content/layout.jpg);
-    }
+.jumboVilla {
+    background-image: url(Content/layout.jpg);
+}
 
-    .jumboMap {
-        background-image: url(Content/map.jpg);
-    }
+.jumboMap {
+    background-image: url(Content/map.jpg);
+}
 
-    .jumboWords {
-        position: relative;
-        top: 10px;
-        color: white;
-        text-align: center;
-    }
+.jumboWords {
+    position: relative;
+    top: 10px;
+    color: white;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+.jumboWords h4 {
+    font-weight: bold;
+}
 
 
-    /*LOCATION BARS*/
+
+
+/*LOCATION BARS*/
 .banner {
     background-color: #474e5d;
     color: white;
@@ -122,10 +131,11 @@
     margin-top: 0px;
 }
 
-.banner .locText{
-    position: relative;
-    top: 20px;
-}
+    .banner .locText {
+        position: relative;
+        top: 20px;
+    }
+
 .locText p {
     font-weight: lighter;
     font-size: 20px;
@@ -188,7 +198,7 @@
     margin: 0px;
 }
 
-.gridText{
+.gridText {
     background-color: rgba(71, 78, 93, 0.75);
     padding: 15px 20px;
     width: 200px;
@@ -199,9 +209,9 @@
     bottom: auto;
 }
 
-.gridText h3 {
-    opacity: 1;
-}
+    .gridText h3 {
+        opacity: 1;
+    }
 
 .gridTextDark {
     color: #474e5d;
@@ -236,6 +246,7 @@
     height: 300px;
     color: #474e5d;
 }
+
 .carousel-caption {
     color: #474e5d;
 }
@@ -247,10 +258,11 @@
 
 .carousel_placeholder {
     text-align: center;
+    padding-top: 10%;
 }
+
 .controlLeft,
 .controlRight {
-    background-color: white;
     color: #474e5d;
 }
 
