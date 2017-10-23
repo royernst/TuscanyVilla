@@ -1,5 +1,4 @@
 ﻿body {
-    font-family: 'Didact Gothic', Arial;
 }
 
 
@@ -110,16 +109,8 @@
     position: relative;
     top: 10px;
     color: white;
-    font-family: 'Saira Extra Condensed', sans-serif;
     text-align: center;
-    letter-spacing: 4px;
 }
-
-.jumboWords h4 {
-    font-weight: bold;
-}
-
-
 
 
 /*LOCATION BARS*/
